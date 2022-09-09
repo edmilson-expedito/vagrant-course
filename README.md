@@ -13,5 +13,11 @@ Make you workspace with a folder
 3- Connect using SSH
     vagrant ssh
 
-4- Stop de virtual machine
+4- Reload config
+    vagrant reload
+
+5- Stop de virtual machine
     vagrant halt
+
+6- Exclude virtual machine
+    vagrant destroy ( using "-f" to force exclude without questions)
